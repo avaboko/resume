@@ -57,9 +57,41 @@
             <p>Email:
                 <a href="mailto:avaboko5@gmail.com">
                     <strong>avaboko5@gmail.com</strong>
-                </a></p>
-                <p>WhatsApp: <strong>+639070241415</strong></p>
-                <p>Address: Davao City, Davao del Sur 8000 Philippines</p>
+                </a>
+            </p>
+            <p>WhatsApp:
+                <strong>+639070241415</strong>
+            </p>
+            <p>Address: Davao City, Davao del Sur 8000 Philippines</p>
+            <br>
+
+            <div class="appointment">
+                <!-- Google Calendar Appointment Scheduling begin -->
+                <link
+                    href="https://calendar.google.com/calendar/scheduling-button-script.css"
+                    rel="stylesheet">
+                <script
+                    src="https://calendar.google.com/calendar/scheduling-button-script.js"
+                    async="async"></script>
+                <script>
+                    (function () {
+                        var target = document.currentScript;
+                        window.addEventListener('load', function () {
+                            calendar
+                                .schedulingButton
+                                .load({
+                                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3iz5AnUSwSVq' +
+                                                '0R0Mw-x3c53PDwirOJy0zrlzMQDpLB_QOLbvF7hOSKiTU6YLWraWQrq1RSWCYL?gv=true',
+                                    color: '#039BE5',
+                                    label: 'You may book an appointment',
+                                    target
+                                });
+                        });
+                    })();
+                </script>
+                <!-- end Google Calendar Appointment Scheduling -->
+            </div>
+
         </header>
 
         <!-- Professional Summary -->
@@ -167,4 +199,5 @@
 
         <script src="script.js"></script>
     </body>
+
 </html>
